@@ -134,6 +134,31 @@
 	animation-delay: 8.2s;
 }
 
+.home__model__top {
+	height: 300px;
+}
+
+.home__model__top__img {
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.home__model__bottom {
+	padding: 20px;
+}
+
+.home__model__bottom__title {
+	font-size: 30px;
+	margin: 0 0 20px 0;
+}
+
+.home__model__bottom__btn {
+	margin: 20px 0 0 0 !important;
+	width: 100%;
+}
+
 @keyframes home-right-container {
 	from {
 		opacity: 0;

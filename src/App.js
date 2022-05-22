@@ -1,11 +1,12 @@
 import './App.css';
-import { BeforeContainer, Home } from "./components/exports";
+import { BeforeContainer, Home, Cards } from "./components/exports";
 
 function App() {
   return (
     <div className="App">
       <BeforeContainer />
       <Home />
+      <Cards />
     </div>
   );
 }
